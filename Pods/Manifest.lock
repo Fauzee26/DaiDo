@@ -1,0 +1,16 @@
+PODS:
+  - Sejima (0.1.8)
+
+DEPENDENCIES:
+  - Sejima
+
+SPEC REPOS:
+  trunk:
+    - Sejima
+
+SPEC CHECKSUMS:
+  Sejima: a9ef46cad5b4dbfbff8de216d342dbef29f8f2b8
+
+PODFILE CHECKSUM: c39637d28831363cc6820150dff010031c02f1e3
+
+COCOAPODS: 1.9.1

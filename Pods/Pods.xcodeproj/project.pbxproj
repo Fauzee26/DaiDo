@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01125A8FF5E1D9527A937C4C61E61119 /* MULayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EB4EC52E8570B9AF4BC773B3F24350 /* MULayoutConstraint.swift */; };
+		05F5966256487EDBD760045FCCF3F3CE /* Sejima-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 890BE8BFF9CA8D76EBB1FC2BB2FC68CA /* Sejima-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		183032A24F143E33F08C0ADB0C85A7B1 /* MUNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9CF21315DF8D1777031F846E7ABA48 /* MUNavigationBar.swift */; };
+		1A2ED27D815D85E462E54B7F0F53EEF5 /* MUNibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1FA1BB63F8035B56D6DF112EE9CB25 /* MUNibView.swift */; };
+		1D576049F0798A428D0303D7050EB12A /* MUAvatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AB7CC6617186B9C6E7F44A4690AE74 /* MUAvatar.swift */; };
+		294F9F72EA84AC01EF33924BF57DBE77 /* MUTopBar.xib in Sources */ = {isa = PBXBuildFile; fileRef = FBB9D4C338471F4E753D44398E165416 /* MUTopBar.xib */; };
+		2AF497AD0C76CBDA455CE8706188267F /* MUWeakProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDEA83A0FEDBA61473BC9EBC9185C0F /* MUWeakProxy.swift */; };
+		46A474FCD1D212EB42430EDB5D8AA4A0 /* MUPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2172DC136E74AD1FD31DF78EEB9A4E3 /* MUPageControl.swift */; };
+		531FFFFE4E593C2734D13E3FFB0CDA81 /* MUSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8541187E81F865DDFDFC1C6D02E45A03 /* MUSegmentedControl.swift */; };
+		5C7FB60A5F3FFE7CC7A0A0A1C52DD277 /* MUSegmentIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74D7FE3D7693423471F85877255C4E6 /* MUSegmentIndicatorView.swift */; };
+		61EDE09A1C0CDB8BFF82DD82D168EFA3 /* Pods-DaiDo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1EE3CD1E688671F6F5E0EF3CEA4C7F4 /* Pods-DaiDo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		749FFE03F0512D749D13372EAE06C417 /* MUTextField.xib in Sources */ = {isa = PBXBuildFile; fileRef = 3ADD9C621B45DF7CC22F0928A677A201 /* MUTextField.xib */; };
+		82AF43E7F6B8B412B1B750C1688E499A /* MUTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F228ADD4F5B81AD4E0CC3A0A6FD594E /* MUTextField.swift */; };
+		82FC72A55C8D1EE29DB76825C1C3A40F /* MUNavigationBar.xib in Sources */ = {isa = PBXBuildFile; fileRef = 5C4B73A865B309BC3EA9D9646CF20FDC /* MUNavigationBar.xib */; };
+		8922829DC8B7DF2B02E9D5237B11CCF8 /* MUAvatar.xib in Sources */ = {isa = PBXBuildFile; fileRef = CACA824A2798389AD8655E2A8FF4CFE7 /* MUAvatar.xib */; };
+		8C9AC70A8680628F28B29797DE20C7A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8EA09F893E54A45672B9CDDCDF03592B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		91156706655A4E7FC04003D03C195ECA /* MUHeader.xib in Sources */ = {isa = PBXBuildFile; fileRef = C1CC79E5FFA66F105A655CF0C8D7DE27 /* MUHeader.xib */; };
+		B05A9333B848E8594836B263EBB91F17 /* MUButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ED3F5E6F2AE95B9BCF0597D6BF9774 /* MUButton.swift */; };
+		B22041BCBCFD77C15477464ACC33020E /* MUHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B33A04E71925DEAACA0E241C96EE10 /* MUHeader.swift */; };
+		B59B3FBED479FB1CCB9E71BB558628E0 /* MUSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63C506A1ED7F3677FB7CE95F21D3472 /* MUSegment.swift */; };
+		C909D7E7D65077AACDC74922172FFAC4 /* MUButton.xib in Sources */ = {isa = PBXBuildFile; fileRef = D26574DDA1B8DAFEAE42B8BFA00C19DF /* MUButton.xib */; };
+		D4D18BB63ECA6DB5DAB49FC6912F8620 /* MUHorizontalPager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F806753B6DE7943073AC22E328EE193 /* MUHorizontalPager.swift */; };
+		E6ADD131E36FF02928FB03D3F4EB1BCA /* Sejima-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E41A59890D193BA0F9177A54AFA5F73D /* Sejima-dummy.m */; };
+		E8E27F332987B239774829CE134E313A /* Pods-DaiDo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AD4F1D95B82468128FB0F4B15CDC2D /* Pods-DaiDo-dummy.m */; };
+		EA0BE7577FE2761B92617A59A5F1F68D /* MUTopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF8A256BAD560D83EEA277EC0421C9A /* MUTopBar.swift */; };
+		F207961AAB641A8241FBA9AAA0E3EB5A /* MUHorizontalPager.xib in Sources */ = {isa = PBXBuildFile; fileRef = D8C7EAF40613F88C98CA151AD0DA19D2 /* MUHorizontalPager.xib */; };
+		FC27F0A58B7519354DFFDF51A91CBBF2 /* MUView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C77CB5AA1A44F2C9A1F9F1DEFEE09A /* MUView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05EFB2989E9A3CA1F11E21254C0613EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3CF848591DF0FC1725805A124616F49;
+			remoteInfo = Sejima;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D28BB2B6DCA902DDCBE6ED4329A72C7 /* Sejima.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Sejima.release.xcconfig; sourceTree = "<group>"; };
+		0E9B0227A26E04D8B269BF19D61CFAA5 /* Sejima.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Sejima.debug.xcconfig; sourceTree = "<group>"; };
+		0EA956D4AF7567491CED3AFE88EA3EE9 /* Pods-DaiDo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DaiDo.debug.xcconfig"; sourceTree = "<group>"; };
+		19F09909C5EFC8EE605E5ECB9DFC9D82 /* Pods-DaiDo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DaiDo-frameworks.sh"; sourceTree = "<group>"; };
+		1E1FA1BB63F8035B56D6DF112EE9CB25 /* MUNibView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MUNibView.swift; path = Sejima/Source/MUCore/MUNibView.swift; sourceTree = "<group>"; };
+		21AD4F1D95B82468128FB0F4B15CDC2D /* Pods-DaiDo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DaiDo-dummy.m"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3ADD9C621B45DF7CC22F0928A677A201 /* MUTextField.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MUTextField.xib; path = Sejima/Source/MUTextField/MUTextField.xib; sourceTree = "<group>"; };
+		58AB7CC6617186B9C6E7F44A4690AE74 /* MUAvatar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MUAvatar.swift; path = Sejima/Source/MUAvatar/MUAvatar.swift; sourceTree = "<group>"; };
+		5BDEA83A0FEDBA61473BC9EBC9185C0F /* MUWeakProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MUWeakProxy.swift; path = Sejima/Source/MUCore/MUWeakProxy.swift; sourceTree = "<group>"; };
+		5C4B73A865B309BC3EA9D9646CF20FDC /* MUNavigationBar.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MUNavigationBar.xib; path = Sejima/Source/MUNavigationBar/MUNavigationBar.xib; sourceTree = "<group>"; };
+		5F228ADD4F5B81AD4E0CC3A0A6FD594E /* MUTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MUTextField.swift; path = Sejima/Source/MUTextField/MUTextField.swift; sourceTree = "<group>"; };
+		8541187E81F865DDFDFC1C6D02E45A03 /* MUSegmentedControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MUSegmentedControl.swift; path = Sejima/Source/MUSegmentedControl/MUSegmentedControl.swift; sourceTree = "<group>"; };
+		87C77CB5AA1A44F2C9A1F9F1DEFEE09A /* MUView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MUView.swift; path = Sejima/Source/MUCore/MUView.swift; sourceTree = "<group>"; };
+		8835A426591FAE0DFD49DEACB3FB8575 /* Sejima-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Sejima-prefix.pch"; sourceTree = "<group>"; };
+		890BE8BFF9CA8D76EBB1FC2BB2FC68CA /* Sejima-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Sejima-umbrella.h"; sourceTree = "<group>"; };
+		8CF8A256BAD560D83EEA277EC0421C9A /* MUTopBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MUTopBar.swift; path = Sejima/Source/MUTopBar/MUTopBar.swift; sourceTree = "<group>"; };
+		8F806753B6DE7943073AC22E328EE193 /* MUHorizontalPager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MUHorizontalPager.swift; path = Sejima/Source/MUHorizontalPager/MUHorizontalPager.swift; sourceTree = "<group>"; };
+		9906F779A15AB1DB25846C3DF5A05F67 /* Pods-DaiDo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DaiDo-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A65A7897D3D7073BD325D254F60E347F /* Pods-DaiDo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DaiDo-acknowledgements.plist"; sourceTree = "<group>"; };
+		A8C51656FFC9F3EDA7BF5D8BE293D998 /* Pods-DaiDo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DaiDo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B1EE3CD1E688671F6F5E0EF3CEA4C7F4 /* Pods-DaiDo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DaiDo-umbrella.h"; sourceTree = "<group>"; };
+		B203F0437D8326017175D196962854F4 /* Pods_DaiDo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DaiDo.framework; path = "Pods-DaiDo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2172DC136E74AD1FD31DF78EEB9A4E3 /* MUPageControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MUPageControl.swift; path = Sejima/Source/MUPageControl/MUPageControl.swift; sourceTree = "<group>"; };
+		B63C506A1ED7F3677FB7CE95F21D3472 /* MUSegment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MUSegment.swift; path = Sejima/Source/MUSegmentedControl/MUSegment.swift; sourceTree = "<group>"; };
+		BCBC884DDD409CEB763AFEC3AD57E28E /* Sejima-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Sejima-Info.plist"; sourceTree = "<group>"; };
+		C0ED3F5E6F2AE95B9BCF0597D6BF9774 /* MUButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MUButton.swift; path = Sejima/Source/MUButton/MUButton.swift; sourceTree = "<group>"; };
+		C1CC79E5FFA66F105A655CF0C8D7DE27 /* MUHeader.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MUHeader.xib; path = Sejima/Source/MUHeader/MUHeader.xib; sourceTree = "<group>"; };
+		C409C3E54E8110BD17823B77B1436240 /* Pods-DaiDo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DaiDo.release.xcconfig"; sourceTree = "<group>"; };
+		CACA824A2798389AD8655E2A8FF4CFE7 /* MUAvatar.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MUAvatar.xib; path = Sejima/Source/MUAvatar/MUAvatar.xib; sourceTree = "<group>"; };
+		D26574DDA1B8DAFEAE42B8BFA00C19DF /* MUButton.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MUButton.xib; path = Sejima/Source/MUButton/MUButton.xib; sourceTree = "<group>"; };
+		D2B33A04E71925DEAACA0E241C96EE10 /* MUHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MUHeader.swift; path = Sejima/Source/MUHeader/MUHeader.swift; sourceTree = "<group>"; };
+		D4F0904FF4A259606B729C60F71F141D /* Sejima.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Sejima.framework; path = Sejima.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5EB4EC52E8570B9AF4BC773B3F24350 /* MULayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MULayoutConstraint.swift; path = Sejima/Source/MUCore/MULayoutConstraint.swift; sourceTree = "<group>"; };
+		D86283F5506B65C0CD95AEFC918305C6 /* Pods-DaiDo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DaiDo.modulemap"; sourceTree = "<group>"; };
+		D871DA1955D5C9C670E132F0CDCF6088 /* Sejima.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Sejima.modulemap; sourceTree = "<group>"; };
+		D8C7EAF40613F88C98CA151AD0DA19D2 /* MUHorizontalPager.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MUHorizontalPager.xib; path = Sejima/Source/MUHorizontalPager/MUHorizontalPager.xib; sourceTree = "<group>"; };
+		E41A59890D193BA0F9177A54AFA5F73D /* Sejima-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Sejima-dummy.m"; sourceTree = "<group>"; };
+		E74D7FE3D7693423471F85877255C4E6 /* MUSegmentIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MUSegmentIndicatorView.swift; path = Sejima/Source/MUSegmentedControl/MUSegmentIndicatorView.swift; sourceTree = "<group>"; };
+		FA9CF21315DF8D1777031F846E7ABA48 /* MUNavigationBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MUNavigationBar.swift; path = Sejima/Source/MUNavigationBar/MUNavigationBar.swift; sourceTree = "<group>"; };
+		FBB9D4C338471F4E753D44398E165416 /* MUTopBar.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MUTopBar.xib; path = Sejima/Source/MUTopBar/MUTopBar.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B13F63F63B552645585703788FB3962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EA09F893E54A45672B9CDDCDF03592B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9C335C8939535CF6C40C998CCBECD02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C9AC70A8680628F28B29797DE20C7A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		417184202FE6C9DE4583AC9F1F22F3EE /* Sejima */ = {
+			isa = PBXGroup;
+			children = (
+				58AB7CC6617186B9C6E7F44A4690AE74 /* MUAvatar.swift */,
+				CACA824A2798389AD8655E2A8FF4CFE7 /* MUAvatar.xib */,
+				C0ED3F5E6F2AE95B9BCF0597D6BF9774 /* MUButton.swift */,
+				D26574DDA1B8DAFEAE42B8BFA00C19DF /* MUButton.xib */,
+				D2B33A04E71925DEAACA0E241C96EE10 /* MUHeader.swift */,
+				C1CC79E5FFA66F105A655CF0C8D7DE27 /* MUHeader.xib */,
+				8F806753B6DE7943073AC22E328EE193 /* MUHorizontalPager.swift */,
+				D8C7EAF40613F88C98CA151AD0DA19D2 /* MUHorizontalPager.xib */,
+				D5EB4EC52E8570B9AF4BC773B3F24350 /* MULayoutConstraint.swift */,
+				FA9CF21315DF8D1777031F846E7ABA48 /* MUNavigationBar.swift */,
+				5C4B73A865B309BC3EA9D9646CF20FDC /* MUNavigationBar.xib */,
+				1E1FA1BB63F8035B56D6DF112EE9CB25 /* MUNibView.swift */,
+				B2172DC136E74AD1FD31DF78EEB9A4E3 /* MUPageControl.swift */,
+				B63C506A1ED7F3677FB7CE95F21D3472 /* MUSegment.swift */,
+				8541187E81F865DDFDFC1C6D02E45A03 /* MUSegmentedControl.swift */,
+				E74D7FE3D7693423471F85877255C4E6 /* MUSegmentIndicatorView.swift */,
+				5F228ADD4F5B81AD4E0CC3A0A6FD594E /* MUTextField.swift */,
+				3ADD9C621B45DF7CC22F0928A677A201 /* MUTextField.xib */,
+				8CF8A256BAD560D83EEA277EC0421C9A /* MUTopBar.swift */,
+				FBB9D4C338471F4E753D44398E165416 /* MUTopBar.xib */,
+				87C77CB5AA1A44F2C9A1F9F1DEFEE09A /* MUView.swift */,
+				5BDEA83A0FEDBA61473BC9EBC9185C0F /* MUWeakProxy.swift */,
+				D3456859DF4A318629DD98127F4CE293 /* Support Files */,
+			);
+			name = Sejima;
+			path = Sejima;
+			sourceTree = "<group>";
+		};
+		878AB0466AF8BBB1A47A5D9A11D02DA8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C55F7ABBFB8AD5B3691A34BCB1416314 /* Pods-DaiDo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		898A6AEDE57F8062FFBDCE51739933FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B203F0437D8326017175D196962854F4 /* Pods_DaiDo.framework */,
+				D4F0904FF4A259606B729C60F71F141D /* Sejima.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9424EFB9B6E9A4D8A154AACA4DF73E46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				417184202FE6C9DE4583AC9F1F22F3EE /* Sejima */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C55F7ABBFB8AD5B3691A34BCB1416314 /* Pods-DaiDo */ = {
+			isa = PBXGroup;
+			children = (
+				D86283F5506B65C0CD95AEFC918305C6 /* Pods-DaiDo.modulemap */,
+				A8C51656FFC9F3EDA7BF5D8BE293D998 /* Pods-DaiDo-acknowledgements.markdown */,
+				A65A7897D3D7073BD325D254F60E347F /* Pods-DaiDo-acknowledgements.plist */,
+				21AD4F1D95B82468128FB0F4B15CDC2D /* Pods-DaiDo-dummy.m */,
+				19F09909C5EFC8EE605E5ECB9DFC9D82 /* Pods-DaiDo-frameworks.sh */,
+				9906F779A15AB1DB25846C3DF5A05F67 /* Pods-DaiDo-Info.plist */,
+				B1EE3CD1E688671F6F5E0EF3CEA4C7F4 /* Pods-DaiDo-umbrella.h */,
+				0EA956D4AF7567491CED3AFE88EA3EE9 /* Pods-DaiDo.debug.xcconfig */,
+				C409C3E54E8110BD17823B77B1436240 /* Pods-DaiDo.release.xcconfig */,
+			);
+			name = "Pods-DaiDo";
+			path = "Target Support Files/Pods-DaiDo";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				9424EFB9B6E9A4D8A154AACA4DF73E46 /* Pods */,
+				898A6AEDE57F8062FFBDCE51739933FA /* Products */,
+				878AB0466AF8BBB1A47A5D9A11D02DA8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3456859DF4A318629DD98127F4CE293 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D871DA1955D5C9C670E132F0CDCF6088 /* Sejima.modulemap */,
+				E41A59890D193BA0F9177A54AFA5F73D /* Sejima-dummy.m */,
+				BCBC884DDD409CEB763AFEC3AD57E28E /* Sejima-Info.plist */,
+				8835A426591FAE0DFD49DEACB3FB8575 /* Sejima-prefix.pch */,
+				890BE8BFF9CA8D76EBB1FC2BB2FC68CA /* Sejima-umbrella.h */,
+				0E9B0227A26E04D8B269BF19D61CFAA5 /* Sejima.debug.xcconfig */,
+				0D28BB2B6DCA902DDCBE6ED4329A72C7 /* Sejima.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Sejima";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		213B9DA73C86731F7CB52E0CBD9CC549 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61EDE09A1C0CDB8BFF82DD82D168EFA3 /* Pods-DaiDo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B65B8D24AB8C811BAEDD4D11F632F28D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F5966256487EDBD760045FCCF3F3CE /* Sejima-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2BC38C4DD967794D8366145BEC213B27 /* Pods-DaiDo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F24AC4C399B3CBF983A406396203FB23 /* Build configuration list for PBXNativeTarget "Pods-DaiDo" */;
+			buildPhases = (
+				213B9DA73C86731F7CB52E0CBD9CC549 /* Headers */,
+				90494C091205845CBC23C106D6837F03 /* Sources */,
+				8B13F63F63B552645585703788FB3962 /* Frameworks */,
+				F9792ACB2956EEF9264AE09F6DBD3015 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D308F5DF4F8B20FE50775DBC36E7B56 /* PBXTargetDependency */,
+			);
+			name = "Pods-DaiDo";
+			productName = "Pods-DaiDo";
+			productReference = B203F0437D8326017175D196962854F4 /* Pods_DaiDo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E3CF848591DF0FC1725805A124616F49 /* Sejima */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE87E07772519E005C968914612F6984 /* Build configuration list for PBXNativeTarget "Sejima" */;
+			buildPhases = (
+				B65B8D24AB8C811BAEDD4D11F632F28D /* Headers */,
+				61E4552FC9B460EB0FEFD608666AC8CE /* Sources */,
+				A9C335C8939535CF6C40C998CCBECD02 /* Frameworks */,
+				FA975DB008CB9DE9ADE41CB46EBB2F64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sejima;
+			productName = Sejima;
+			productReference = D4F0904FF4A259606B729C60F71F141D /* Sejima.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 898A6AEDE57F8062FFBDCE51739933FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BC38C4DD967794D8366145BEC213B27 /* Pods-DaiDo */,
+				E3CF848591DF0FC1725805A124616F49 /* Sejima */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9792ACB2956EEF9264AE09F6DBD3015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA975DB008CB9DE9ADE41CB46EBB2F64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61E4552FC9B460EB0FEFD608666AC8CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D576049F0798A428D0303D7050EB12A /* MUAvatar.swift in Sources */,
+				8922829DC8B7DF2B02E9D5237B11CCF8 /* MUAvatar.xib in Sources */,
+				B05A9333B848E8594836B263EBB91F17 /* MUButton.swift in Sources */,
+				C909D7E7D65077AACDC74922172FFAC4 /* MUButton.xib in Sources */,
+				B22041BCBCFD77C15477464ACC33020E /* MUHeader.swift in Sources */,
+				91156706655A4E7FC04003D03C195ECA /* MUHeader.xib in Sources */,
+				D4D18BB63ECA6DB5DAB49FC6912F8620 /* MUHorizontalPager.swift in Sources */,
+				F207961AAB641A8241FBA9AAA0E3EB5A /* MUHorizontalPager.xib in Sources */,
+				01125A8FF5E1D9527A937C4C61E61119 /* MULayoutConstraint.swift in Sources */,
+				183032A24F143E33F08C0ADB0C85A7B1 /* MUNavigationBar.swift in Sources */,
+				82FC72A55C8D1EE29DB76825C1C3A40F /* MUNavigationBar.xib in Sources */,
+				1A2ED27D815D85E462E54B7F0F53EEF5 /* MUNibView.swift in Sources */,
+				46A474FCD1D212EB42430EDB5D8AA4A0 /* MUPageControl.swift in Sources */,
+				B59B3FBED479FB1CCB9E71BB558628E0 /* MUSegment.swift in Sources */,
+				531FFFFE4E593C2734D13E3FFB0CDA81 /* MUSegmentedControl.swift in Sources */,
+				5C7FB60A5F3FFE7CC7A0A0A1C52DD277 /* MUSegmentIndicatorView.swift in Sources */,
+				82AF43E7F6B8B412B1B750C1688E499A /* MUTextField.swift in Sources */,
+				749FFE03F0512D749D13372EAE06C417 /* MUTextField.xib in Sources */,
+				EA0BE7577FE2761B92617A59A5F1F68D /* MUTopBar.swift in Sources */,
+				294F9F72EA84AC01EF33924BF57DBE77 /* MUTopBar.xib in Sources */,
+				FC27F0A58B7519354DFFDF51A91CBBF2 /* MUView.swift in Sources */,
+				2AF497AD0C76CBDA455CE8706188267F /* MUWeakProxy.swift in Sources */,
+				E6ADD131E36FF02928FB03D3F4EB1BCA /* Sejima-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90494C091205845CBC23C106D6837F03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8E27F332987B239774829CE134E313A /* Pods-DaiDo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D308F5DF4F8B20FE50775DBC36E7B56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Sejima;
+			target = E3CF848591DF0FC1725805A124616F49 /* Sejima */;
+			targetProxy = 05EFB2989E9A3CA1F11E21254C0613EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		40AB40A7D6DC51F661FFB4299B52EE43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E9B0227A26E04D8B269BF19D61CFAA5 /* Sejima.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Sejima/Sejima-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Sejima/Sejima-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Sejima/Sejima.modulemap";
+				PRODUCT_MODULE_NAME = Sejima;
+				PRODUCT_NAME = Sejima;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B1FC405B9984B53209C1646315D799F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EA956D4AF7567491CED3AFE88EA3EE9 /* Pods-DaiDo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DaiDo/Pods-DaiDo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DaiDo/Pods-DaiDo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B3557F848DE8A8E871A34E6F21A21C48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C409C3E54E8110BD17823B77B1436240 /* Pods-DaiDo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DaiDo/Pods-DaiDo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DaiDo/Pods-DaiDo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C5732589A8EF96C3EBEA3B256A8ABCAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D28BB2B6DCA902DDCBE6ED4329A72C7 /* Sejima.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Sejima/Sejima-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Sejima/Sejima-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Sejima/Sejima.modulemap";
+				PRODUCT_MODULE_NAME = Sejima;
+				PRODUCT_NAME = Sejima;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F24AC4C399B3CBF983A406396203FB23 /* Build configuration list for PBXNativeTarget "Pods-DaiDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1FC405B9984B53209C1646315D799F9 /* Debug */,
+				B3557F848DE8A8E871A34E6F21A21C48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE87E07772519E005C968914612F6984 /* Build configuration list for PBXNativeTarget "Sejima" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40AB40A7D6DC51F661FFB4299B52EE43 /* Debug */,
+				C5732589A8EF96C3EBEA3B256A8ABCAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
