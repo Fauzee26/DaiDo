@@ -6,5 +6,6 @@ target 'DaiDo' do
 
   # Pods for DaiDo
 pod 'Sejima'
-
+pod 'RealmSwift', '~> 4.4'
+pod 'ChameleonFramework/Swift', :git => 'https://github.com/wowansm/Chameleon.git', :branch => 'swift5'
 end

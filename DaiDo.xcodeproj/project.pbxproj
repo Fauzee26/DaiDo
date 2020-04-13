@@ -3,16 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		59243FD7244028710006443B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59243FD6244028710006443B /* AppDelegate.swift */; };
 		59243FD9244028710006443B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59243FD8244028710006443B /* SceneDelegate.swift */; };
-		59243FDB244028710006443B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59243FDA244028710006443B /* ViewController.swift */; };
+		59243FDB244028710006443B /* WalkthroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59243FDA244028710006443B /* WalkthroughViewController.swift */; };
 		59243FDE244028710006443B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59243FDC244028710006443B /* Main.storyboard */; };
 		59243FE0244028720006443B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59243FDF244028720006443B /* Assets.xcassets */; };
 		59243FE3244028720006443B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59243FE1244028720006443B /* LaunchScreen.storyboard */; };
+		59243FEB244031730006443B /* WalkthroughContentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59243FEA244031730006443B /* WalkthroughContentVC.swift */; };
+		59243FED2440387A0006443B /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59243FEC2440387A0006443B /* CategoriesViewController.swift */; };
+		597752B52442D94E007C03C7 /* CategoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597752B32442D94E007C03C7 /* CategoriesCell.swift */; };
+		597752B62442D94E007C03C7 /* CategoriesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 597752B42442D94E007C03C7 /* CategoriesCell.xib */; };
+		597752B82442E7BE007C03C7 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597752B72442E7BE007C03C7 /* CircularProgressView.swift */; };
+		597752BA2442EF8A007C03C7 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597752B92442EF8A007C03C7 /* Constant.swift */; };
+		597752BD2442F060007C03C7 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597752BC2442F060007C03C7 /* Category.swift */; };
+		597752BF2442F0BE007C03C7 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597752BE2442F0BE007C03C7 /* Item.swift */; };
+		597752C42442FD84007C03C7 /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597752C32442FD84007C03C7 /* ItemsViewController.swift */; };
+		597752C7244310D5007C03C7 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597752C5244310D5007C03C7 /* ItemCell.swift */; };
+		597752C8244310D5007C03C7 /* ItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 597752C6244310D5007C03C7 /* ItemCell.xib */; };
+		597752CA2443FD70007C03C7 /* AddItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597752C92443FD70007C03C7 /* AddItemController.swift */; };
 		62E40A7E309181BDE09F229C /* Pods_DaiDo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5233B35833856A0CFDA5F6BC /* Pods_DaiDo.framework */; };
 /* End PBXBuildFile section */
 
@@ -22,11 +34,23 @@
 		59243FD3244028710006443B /* DaiDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DaiDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59243FD6244028710006443B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59243FD8244028710006443B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		59243FDA244028710006443B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		59243FDA244028710006443B /* WalkthroughViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughViewController.swift; sourceTree = "<group>"; };
 		59243FDD244028710006443B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		59243FDF244028720006443B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59243FE2244028720006443B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59243FE4244028720006443B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59243FEA244031730006443B /* WalkthroughContentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughContentVC.swift; sourceTree = "<group>"; };
+		59243FEC2440387A0006443B /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		597752B32442D94E007C03C7 /* CategoriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCell.swift; sourceTree = "<group>"; };
+		597752B42442D94E007C03C7 /* CategoriesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoriesCell.xib; sourceTree = "<group>"; };
+		597752B72442E7BE007C03C7 /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		597752B92442EF8A007C03C7 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		597752BC2442F060007C03C7 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		597752BE2442F0BE007C03C7 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		597752C32442FD84007C03C7 /* ItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
+		597752C5244310D5007C03C7 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		597752C6244310D5007C03C7 /* ItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemCell.xib; sourceTree = "<group>"; };
+		597752C92443FD70007C03C7 /* AddItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemController.swift; sourceTree = "<group>"; };
 		CF0EEE177327D64C749BD58F /* Pods-DaiDo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaiDo.debug.xcconfig"; path = "Target Support Files/Pods-DaiDo/Pods-DaiDo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -48,7 +72,6 @@
 				CF0EEE177327D64C749BD58F /* Pods-DaiDo.debug.xcconfig */,
 				3F6EDC7A339035655A97C263 /* Pods-DaiDo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -75,13 +98,57 @@
 			children = (
 				59243FD6244028710006443B /* AppDelegate.swift */,
 				59243FD8244028710006443B /* SceneDelegate.swift */,
-				59243FDA244028710006443B /* ViewController.swift */,
-				59243FDC244028710006443B /* Main.storyboard */,
+				597752BB2442F01A007C03C7 /* Model */,
+				597752B22442D91E007C03C7 /* Views */,
+				59243FEE244042FF0006443B /* Controllers */,
+				597752C02442F2DB007C03C7 /* Helper */,
 				59243FDF244028720006443B /* Assets.xcassets */,
 				59243FE1244028720006443B /* LaunchScreen.storyboard */,
 				59243FE4244028720006443B /* Info.plist */,
 			);
 			path = DaiDo;
+			sourceTree = "<group>";
+		};
+		59243FEE244042FF0006443B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				59243FDA244028710006443B /* WalkthroughViewController.swift */,
+				59243FEA244031730006443B /* WalkthroughContentVC.swift */,
+				59243FEC2440387A0006443B /* CategoriesViewController.swift */,
+				597752C32442FD84007C03C7 /* ItemsViewController.swift */,
+				597752C92443FD70007C03C7 /* AddItemController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		597752B22442D91E007C03C7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				59243FDC244028710006443B /* Main.storyboard */,
+				597752B32442D94E007C03C7 /* CategoriesCell.swift */,
+				597752B42442D94E007C03C7 /* CategoriesCell.xib */,
+				597752B72442E7BE007C03C7 /* CircularProgressView.swift */,
+				597752C5244310D5007C03C7 /* ItemCell.swift */,
+				597752C6244310D5007C03C7 /* ItemCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		597752BB2442F01A007C03C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				597752BC2442F060007C03C7 /* Category.swift */,
+				597752BE2442F0BE007C03C7 /* Item.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		597752C02442F2DB007C03C7 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				597752B92442EF8A007C03C7 /* Constant.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 		7C3F2D5F2EFA012859A4F928 /* Frameworks */ = {
@@ -153,6 +220,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				59243FE3244028720006443B /* LaunchScreen.storyboard in Resources */,
+				597752B62442D94E007C03C7 /* CategoriesCell.xib in Resources */,
+				597752C8244310D5007C03C7 /* ItemCell.xib in Resources */,
 				59243FE0244028720006443B /* Assets.xcassets in Resources */,
 				59243FDE244028710006443B /* Main.storyboard in Resources */,
 			);
@@ -207,9 +276,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59243FDB244028710006443B /* ViewController.swift in Sources */,
+				597752BF2442F0BE007C03C7 /* Item.swift in Sources */,
+				597752C42442FD84007C03C7 /* ItemsViewController.swift in Sources */,
+				59243FDB244028710006443B /* WalkthroughViewController.swift in Sources */,
+				59243FED2440387A0006443B /* CategoriesViewController.swift in Sources */,
+				59243FEB244031730006443B /* WalkthroughContentVC.swift in Sources */,
+				597752BA2442EF8A007C03C7 /* Constant.swift in Sources */,
+				597752B82442E7BE007C03C7 /* CircularProgressView.swift in Sources */,
+				597752BD2442F060007C03C7 /* Category.swift in Sources */,
+				597752C7244310D5007C03C7 /* ItemCell.swift in Sources */,
+				597752B52442D94E007C03C7 /* CategoriesCell.swift in Sources */,
 				59243FD7244028710006443B /* AppDelegate.swift in Sources */,
 				59243FD9244028710006443B /* SceneDelegate.swift in Sources */,
+				597752CA2443FD70007C03C7 /* AddItemController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +434,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72C5A4RQ56;
 				INFOPLIST_FILE = DaiDo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -373,6 +453,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72C5A4RQ56;
 				INFOPLIST_FILE = DaiDo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
