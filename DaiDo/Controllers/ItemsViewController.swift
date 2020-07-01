@@ -34,8 +34,6 @@ class ItemsViewController: UITableViewController, UIPickerViewDelegate, UIPicker
     }
     
     override func viewDidLoad() {
-        print("viewDidLoad is here")
-
         super.viewDidLoad()
         tableView.register(UINib(nibName: K.itemNibName, bundle: nil), forCellReuseIdentifier: K.itemCell)
         tableView.rowHeight = 100.0
@@ -48,15 +46,7 @@ class ItemsViewController: UITableViewController, UIPickerViewDelegate, UIPicker
         tableView.reloadData()
     }
     
-    
-    
-    override func viewDidAppear(_ animated: Bool) {
-        print("viewDidAppear is here")
-    }
-    
     override func viewWillAppear(_ animated: Bool) {
-        print("viewWillAppear is here")
-
         title = selectedCategory?.name
         
         self.itemAdded()

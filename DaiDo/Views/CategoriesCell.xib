@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -19,33 +19,40 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fca-jk-d6z">
                         <rect key="frame" x="8" y="4" width="384" height="108"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Home" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tDY-VS-5ru">
-                                <rect key="frame" x="20" y="10" width="272" height="88"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tDY-VS-5ru">
+                                <rect key="frame" x="16" y="10" width="264" height="88"/>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lvv-kS-3tP" customClass="CircularProgressView" customModule="DaiDo" customModuleProvider="target">
-                                <rect key="frame" x="300" y="10" width="80" height="88"/>
+                                <rect key="frame" x="288" y="14" width="80" height="80"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1/3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mYM-5o-PJm">
-                                        <rect key="frame" x="28" y="33" width="25" height="22"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1/3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mYM-5o-PJm">
+                                        <rect key="frame" x="27.5" y="29" width="25" height="22"/>
                                         <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemGray4Color" red="0.81960784310000001" green="0.81960784310000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="mYM-5o-PJm" firstAttribute="centerY" secondItem="Lvv-kS-3tP" secondAttribute="centerY" id="0mC-Ro-b06"/>
+                                    <constraint firstItem="mYM-5o-PJm" firstAttribute="centerX" secondItem="Lvv-kS-3tP" secondAttribute="centerX" id="TRR-FJ-mNk"/>
+                                    <constraint firstAttribute="width" constant="80" id="hb9-cW-nV0"/>
+                                    <constraint firstAttribute="width" secondItem="Lvv-kS-3tP" secondAttribute="height" multiplier="1:1" id="wSb-F1-55u"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.36078431372549019" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="Lvv-kS-3tP" firstAttribute="leading" secondItem="fca-jk-d6z" secondAttribute="leading" constant="300" id="7bl-qE-KTd"/>
-                            <constraint firstAttribute="trailing" secondItem="Lvv-kS-3tP" secondAttribute="trailing" constant="4" id="kIy-0E-mdr"/>
-                            <constraint firstAttribute="bottom" secondItem="Lvv-kS-3tP" secondAttribute="bottom" constant="10" id="z8k-Bh-5vN"/>
-                            <constraint firstItem="Lvv-kS-3tP" firstAttribute="top" secondItem="fca-jk-d6z" secondAttribute="top" constant="10" id="zg5-aG-H9G"/>
+                            <constraint firstItem="Lvv-kS-3tP" firstAttribute="centerY" secondItem="tDY-VS-5ru" secondAttribute="centerY" id="69f-rP-ELM"/>
+                            <constraint firstItem="tDY-VS-5ru" firstAttribute="top" secondItem="fca-jk-d6z" secondAttribute="top" constant="10" id="9CQ-fh-1yt"/>
+                            <constraint firstItem="tDY-VS-5ru" firstAttribute="leading" secondItem="fca-jk-d6z" secondAttribute="leading" constant="16" id="R0K-rl-XEx"/>
+                            <constraint firstItem="tDY-VS-5ru" firstAttribute="centerY" secondItem="fca-jk-d6z" secondAttribute="centerY" id="cEE-Ma-PTB"/>
+                            <constraint firstItem="Lvv-kS-3tP" firstAttribute="leading" secondItem="tDY-VS-5ru" secondAttribute="trailing" constant="8" id="fnX-DD-t0O"/>
+                            <constraint firstAttribute="trailing" secondItem="Lvv-kS-3tP" secondAttribute="trailing" constant="16" id="kIy-0E-mdr"/>
+                            <constraint firstAttribute="bottom" secondItem="tDY-VS-5ru" secondAttribute="bottom" constant="10" id="yPu-eF-Th7"/>
                         </constraints>
                     </view>
                 </subviews>
