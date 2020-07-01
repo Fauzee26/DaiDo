@@ -35,7 +35,7 @@ class AddItemController: UIViewController, UIPickerViewDelegate, UIPickerViewDat
         titleTextField.delegate = self
         btnAdd.layer.cornerRadius = 10
         pickerPriority.delegate = self
-        btnAdd.backgroundColor = UIColor(hexString: selectedCategory!.colour)?.darken(byPercentage: 0.3)
+        btnAdd.backgroundColor = UIColor(hexString: selectedCategory!.colour)?.lighten(byPercentage: 0.5)
         toolbar.barTintColor = UIColor(hexString: selectedCategory!.colour)?.lighten(byPercentage: 0.3)
         //        view.backgroundColor = UIColor(hexString: selectedCategory!.colour)?.lighten(byPercentage: 0.4)
         
@@ -49,7 +49,6 @@ class AddItemController: UIViewController, UIPickerViewDelegate, UIPickerViewDat
         dateFormatter.timeStyle = DateFormatter.Style.short
 
         let strDate = dateFormatter.string(from: alarmPicker.date)
-        print(strDate)
     }
     
     @IBAction func addAlarmSwitched(_ sender: UISwitch) {
@@ -106,7 +105,6 @@ class AddItemController: UIViewController, UIPickerViewDelegate, UIPickerViewDat
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         selectedChoices = choices[row]
-        print(selectedChoices)
     }
     
     func textFieldShouldReturn(_ scoreText: UITextField) -> Bool {
