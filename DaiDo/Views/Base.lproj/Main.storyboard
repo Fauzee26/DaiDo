@@ -247,12 +247,33 @@
                                 <rect key="frame" x="0.0" y="140" width="414" height="756"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </tableView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="pB3-R9-IIc">
+                                <rect key="frame" x="16" y="418" width="382" height="60.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Categories Available :(" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4UV-mH-XP8">
+                                        <rect key="frame" x="0.0" y="0.0" width="382" height="33"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="24"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Press + to add new category" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KUZ-SE-X1L">
+                                        <rect key="frame" x="0.0" y="33" width="382" height="27.5"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="qrN-hZ-0nV" firstAttribute="top" secondItem="gSJ-2k-tFU" secondAttribute="top" id="3VS-N2-rzx"/>
+                            <constraint firstItem="pB3-R9-IIc" firstAttribute="leading" secondItem="gSJ-2k-tFU" secondAttribute="leading" constant="16" id="7fs-F4-4N5"/>
                             <constraint firstAttribute="bottomMargin" secondItem="qrN-hZ-0nV" secondAttribute="bottom" constant="-34" id="Jrm-y6-n6J"/>
+                            <constraint firstItem="pB3-R9-IIc" firstAttribute="centerY" secondItem="E6a-7q-oMa" secondAttribute="centerY" id="K61-Q1-NBm"/>
                             <constraint firstItem="qrN-hZ-0nV" firstAttribute="centerX" secondItem="E6a-7q-oMa" secondAttribute="centerX" id="drK-Ig-EwW"/>
+                            <constraint firstItem="gSJ-2k-tFU" firstAttribute="trailing" secondItem="pB3-R9-IIc" secondAttribute="trailing" constant="16" id="j4h-kJ-Ecu"/>
+                            <constraint firstItem="pB3-R9-IIc" firstAttribute="centerX" secondItem="E6a-7q-oMa" secondAttribute="centerX" id="mOr-Bf-t3c"/>
                             <constraint firstItem="qrN-hZ-0nV" firstAttribute="leading" secondItem="gSJ-2k-tFU" secondAttribute="leading" id="rmO-Mc-TqU"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="gSJ-2k-tFU"/>
@@ -265,6 +286,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="stackEmpty" destination="pB3-R9-IIc" id="8tA-Ia-g2i"/>
                         <outlet property="tableView" destination="qrN-hZ-0nV" id="iH9-44-VX2"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="goToLaunch" animates="NO" id="J8u-Pj-6za"/>
                         <segue destination="NLK-fp-ESG" kind="show" identifier="goToItems" id="fsH-B4-H6V"/>

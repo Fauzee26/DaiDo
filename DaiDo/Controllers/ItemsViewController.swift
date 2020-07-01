@@ -119,6 +119,12 @@ class ItemsViewController: UITableViewController, UIPickerViewDelegate, UIPicker
     
     //MARK: - Tableview Datasource Method
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        if items?.count == 0 {
+            self.tableView.setEmptyState()
+        } else {
+            self.tableView.restore()
+        }
+        
         return items?.count ?? 1
     }
     

@@ -12,6 +12,7 @@ import ChameleonFramework
 
 class CategoriesViewController: UIViewController {
     
+    @IBOutlet weak var stackEmpty: UIStackView!
     @IBOutlet weak var tableView: UITableView!
     
     let defaults = UserDefaults.standard
@@ -36,15 +37,14 @@ class CategoriesViewController: UIViewController {
         }
         tableView.reloadData()
     }
-    
-    override func viewDidAppear(_ animated: Bool) {
-        if defaults.bool(forKey: "isFirstLaunch") == true {
-            print("Second")
-            print(defaults.bool(forKey: "isFirstLaunch"))
+   
+    private func emptyState() {
+        if categories!.isEmpty {
+            stackEmpty.isHidden = false
+            tableView.isHidden = true
         } else {
-            performSegue(withIdentifier: "goToLaunch", sender: self)
-            print("First")
-            print(defaults.bool(forKey: "isFirstLaunch"))
+            stackEmpty.isHidden = true
+            tableView.isHidden = false
         }
     }
     
@@ -59,6 +59,7 @@ class CategoriesViewController: UIViewController {
                 newCategory.colour = UIColor.randomFlat().hexValue()
                 
                 self.save(category: newCategory)
+                self.emptyState()
             }
         }
         
@@ -87,6 +88,7 @@ class CategoriesViewController: UIViewController {
     func loadCategories() {
         categories = realm.objects(Category.self)
         tableView.reloadData()
+        emptyState()
     }
     
     //MARK: - Delete Data From Swipe
@@ -108,7 +110,9 @@ class CategoriesViewController: UIViewController {
         let deleteAction = UIAlertAction(title: "Delete", style: .destructive) { (action) in
             self.deleteCategories(at: indexPath)
             self.tableView.deleteRows(at: [indexPath], with: .top)
+            self.emptyState()
         }
+        
         let CancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
         
         alert.addAction(deleteAction)
