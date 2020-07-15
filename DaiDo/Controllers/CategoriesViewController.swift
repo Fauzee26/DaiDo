@@ -38,6 +38,12 @@ class CategoriesViewController: UIViewController {
         tableView.reloadData()
     }
    
+    override func viewDidAppear(_ animated: Bool) {
+        if defaults.bool(forKey: "isFirstLaunch") != true {
+            performSegue(withIdentifier: "goToLaunch", sender: self)
+        }
+    }
+    
     private func emptyState() {
         if categories!.isEmpty {
             stackEmpty.isHidden = false
